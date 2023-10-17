@@ -1,0 +1,91 @@
+JDBC Dependency
+-----------------
+ 
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.30</version>
+</dependency>
+
+*********************************************************************************************
+
+Hibernate Dependency
+--------------------
+
+<dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>4.3.5.Final</version>
+        </dependency>
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.30</version>
+</dependency>
+
+*********************************************************************************************
+
+JSTL Dependency
+-------------------
+
+<dependency>
+	<groupId>javax.servlet</groupId>
+	<artifactId>jstl</artifactId>
+	<version>1.2</version>
+</dependency>
+
+*********************************************************************************************
+
+JSTL Connection
+----------------
+
+<sql:setDataSource var="connection"
+	
+	driver="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/infinite_august23"
+	user="root"
+	password="Amitsai@123"	
+	/>
+
+*********************************************************************************************
+
+Class.forName("com.mysql.cj.jdbc.Driver");
+
+**********************************************************************************************
+
+Connection connection  = DriverManager.getConnection("jdbc:mysql://localhost:3306/infinite_august23","root","Amitsai@123");
+
+*********************************************************************************************************
+
+Properties File
+-----------------
+
+driver=com.mysql.cj.jdbc.Driver
+url=jdbc:mysql://localhost:3306/infinite_august23
+user=root
+password=Amitsai@123
+
+*****************************************************************************************************
+
+ConnectionHelper
+----------------
+
+public static Connection getConnection() throws ClassNotFoundException, SQLException {
+		ResourceBundle rb = ResourceBundle.getBundle("bd");
+		String driver = rb.getString("driver");
+		String url = rb.getString("url");
+		String user = rb.getString("user");
+		String pwd = rb.getString("password");
+		
+		Connection connection = null;
+		Class.forName(driver);
+		connection = DriverManager.getConnection(url, user, pwd);
+		return connection;
+
+*******************************************************************************************************
+
+To use the break and other html values as a string
+----------------------------------------------------
+
+response.setContentType("text/html; charset=utf-8"); 
