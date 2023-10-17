@@ -1,0 +1,24 @@
+package com.java.jsf;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class RoomImpl implements RoomDAO{
+	
+	SessionFactory sf;
+	Session session;
+	
+
+	@Override
+	public List<RoomMaster> showRoomDao() {
+		sf = SessionHelper.getConnection();
+		session = sf.openSession();
+		Criteria criteria = session.createCriteria(RoomMaster.class);
+		List<DoctorMaster> roomsList = criteria.list();
+		return doctorsList;
+	}
+
+}

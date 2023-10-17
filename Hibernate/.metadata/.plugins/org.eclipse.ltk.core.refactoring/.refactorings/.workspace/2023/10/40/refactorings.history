@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;HibExample4&apos;" deleteContents="false" description="Delete resource &apos;HibExample4&apos;" element1="/HibExample4" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1696307642110"/>&#x0A;<refactoring comment="Delete resource &apos;HibJsfExAgent&apos;" deleteContents="false" description="Delete resource &apos;HibJsfExAgent&apos;" element1="/HibJsfExAgent" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1696322566784"/>
+</session>

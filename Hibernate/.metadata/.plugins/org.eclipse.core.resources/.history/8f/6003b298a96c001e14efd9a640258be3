@@ -1,0 +1,29 @@
+package com.java.jsf;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+
+import com.java.jsf.SessionHelper;
+
+public class PatientImpl implements PatientDAO{
+	
+	SessionFactory sf;
+	Session session;
+
+	@Override
+	public String addPatientDao(PatientMaster patient) {
+		sf = SessionHelper.getConnection();
+		session = sf.openSession();
+		Transaction trans = session.beginTransaction();
+		session.save(customer);
+		trans.commit();
+		String body ="Welcome to Mr/Miss  " +customer.getCusname() + "\r\n"+
+				"Your Account Created Successfully...";
+		MailSend.mailOtp(customer.getCusemail(), "Otp Send Succesfully...", body);
+		
+		return "Your appointment is ready";
+	}
+
+}

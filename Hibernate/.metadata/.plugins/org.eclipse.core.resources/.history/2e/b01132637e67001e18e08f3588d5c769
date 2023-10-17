@@ -1,0 +1,9 @@
+package com.java.jsf;
+
+public class Wallet {
+		
+	private int cusId;
+	private int walId;
+	private double walAmount;
+	private String walSource;
+}

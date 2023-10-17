@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:body>
+<center>
+		<h:form>
+			<h2 style="text-align: center" class="col-sm-4">- Edit Your Record -</h2><br/><br/>
+			
+			Agent Id
+			<h:inputText id="agentId" value="#{editAgent.agentId}"/> <br/><br/>
+			
+
+			Agent Name
+			<h:inputText id="name" value="#{editAgent.name}"/> <br/><br/>
+			
+			City
+			<h:inputText id="city" value="#{editAgent.city}"/> <br/><br/>		
+			
+			Gender
+			<h:inputText id="gender" value="#{editAgent.gender}"/> <br/><br/>
+			
+			
+			Marital Status
+			<h:inputText id="maritalStatus" value="#{editAgent.maritalStatus}"/> <br/><br/>
+			
+			
+			Premium
+			<h:inputText id="premium" value="#{editAgent.premium}"/> <br/><br/>
+			
+			
+			<h:commandButton value="Update" action="#{aDao.updateAgentDao(editAgent)}"
+			style="color: white; background-color: orange; border: 2px solid black; width:100px; border-radius:20px;height:25px;
+			font-weight:bold"
+			/>
+		</h:form>
+		</center>
+	</h:body>
+</html>

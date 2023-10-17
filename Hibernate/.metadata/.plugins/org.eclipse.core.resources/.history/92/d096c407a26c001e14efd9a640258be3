@@ -1,0 +1,9 @@
+package com.java.jsf;
+
+public class RoomMaster {
+	
+	private String roomNo;
+	private String roomType;
+	private String status;
+
+}

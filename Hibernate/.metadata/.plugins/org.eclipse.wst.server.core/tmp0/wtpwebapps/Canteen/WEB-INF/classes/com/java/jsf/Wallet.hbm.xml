@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 10-Oct-2023, 8:35:32 pm by Hibernate Tools 3.6.2.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="com.java.jsf.Wallet" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="WALLET">
+        <id name="cusId" type="int">
+            <column name="CUSID"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="walId" optimistic-lock="true" type="int" unique="false">
+            <column name="WALID"/>
+        </property>
+        <property generated="never" lazy="false" name="walAmount" optimistic-lock="true" type="double" unique="false">
+            <column name="WALAMOUNT"/>
+        </property>
+        <property generated="never" lazy="false" name="walSource" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="WALSOURCE"/>
+        </property>
+    </class>
+</hibernate-mapping>
