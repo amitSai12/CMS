@@ -1,8 +1,0 @@
-package com.java.ejb;
-
-public interface DoctorDAO {
-	
-	List<Doctor> showDoctor();
-	
-
-}
