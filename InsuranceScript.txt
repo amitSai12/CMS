@@ -64,4 +64,34 @@ status varchar(10)
 
 select * from customer_auth;
 
+use insurance;
+drop table if exists ins_plans;
+create table ins_plans(
+planId INT  primary key,
+insuranceId varchar(50),
+premiumAmount double,
+covAmount double,
+FOREIGN KEY (insuranceId) REFERENCES insurance_details(insuranceId)
+);
+insert into ins_plans(planId,insuranceId, premiumAmount, covAmount)	
+values 
+(1, 'INS01', 5000, 800000),
+(2, 'INS01', 8000, 1200000),
+(3, 'INS02', 3000, 500000);				
+
+select * from ins_plans;
+
+use insurance;
+drop table if exists customerPolicy;
+
+CREATE TABLE customerPolicy (
+    policyId INT AUTO_INCREMENT PRIMARY KEY,
+    custId INT,
+    insuranceId VARCHAR(5) NOT NULL,
+    insuranceAmount DOUBLE,
+    payMode VARCHAR(20)
+);
+
+select * from customerPolicy;
+
 
