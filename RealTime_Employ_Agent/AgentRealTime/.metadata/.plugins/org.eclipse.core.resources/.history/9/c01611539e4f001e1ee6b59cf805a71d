@@ -1,0 +1,50 @@
+package com.java.agent;
+
+ 
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+ 
+
+public class AgentUpdateMain {
+	
+	
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		int agentId = 0, maritalStatus;
+		double premium;
+		String name, city, gender;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Name : ");
+		name = sc.nextLine();
+		System.out.println("Enter City : ");
+		city = sc.nextLine();
+		System.out.println("Enter Gender (Male/Female) : ");
+		gender = sc.nextLine();
+		System.out.println("Enter MaritaStatus : ");
+		maritalStatus = sc.nextInt();
+		System.out.println("Enter Premium : ");
+		premium = sc.nextDouble();
+		try {
+		
+			Connection connection = AgentConnectionHelper.getConnection();
+			String cmd = "Update Agent Set Name = ?, City = ?,Gender = ?, MaritalStatus = ?, Premium = ?"+" Where AgentId = ? ";
+			PreparedStatement pst = connection.prepareStatement(cmd);
+			pst.setString(1, name);
+			pst.setString(2, city);
+			pst.setString(3,gender);
+			pst.setInt(4, maritalStatus);
+			pst.setDouble(5, premium);
+			
+			pst.setInt(6, agentId);
+			pst.executeUpdate();
+			System.out.println("****Records Updated****");
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package com.java.cols;
+
+public class LambdaExpr2 {
+
+	public static void main(String[] args) {
+		
+		ICalculation obj1 = (a,b) -> {
+			return a+b;
+		};
+		
+	}
+}

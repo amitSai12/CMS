@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+D:\MavenProject\Day1\AgentRealTime\.metadata\.plugins\org.eclipse.jdt.core
+2493241028.index
+1865797976.index
+3421634856.index
+477318035.index
+4188960976.index
+3377060267.index
+3361682613.index
+155245763.index
+1448732149.index

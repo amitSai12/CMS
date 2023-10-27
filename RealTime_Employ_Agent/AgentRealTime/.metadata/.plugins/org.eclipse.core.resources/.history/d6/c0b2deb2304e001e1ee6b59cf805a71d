@@ -1,0 +1,10 @@
+package com.java.op;
+
+public class DataDao {
+
+	static Data data;
+	
+	public void showDao() {
+		data.show();
+	}
+}
