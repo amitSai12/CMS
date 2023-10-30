@@ -15,7 +15,6 @@
             <center>
                 <h2><h:outputText value="- Login Sucess -"/></h2><br>
                    
-                   <h:outputText value="Hello Mr/Miss. #{customer}"/>
             </center>
         </h:form>
        

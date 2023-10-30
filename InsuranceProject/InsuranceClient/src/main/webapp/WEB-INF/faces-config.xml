@@ -28,11 +28,11 @@
 	<managed-bean-name>customerAuth</managed-bean-name>
     <managed-bean-class>com.java.ejb.CustomerAuthorization</managed-bean-class>
     <managed-bean-scope>request</managed-bean-scope>
-  </managed-bean>
-  <managed-bean>  
+  </managed-bean> 
   <managed-bean-name>paginationDao</managed-bean-name>
-    <managed-bean-class>com.java.ejb.JsfPaginationBean</managed-bean-class>
+    <managed-bean-class>com.java.jsf.JsfPaginationBean</managed-bean-class>
     <managed-bean-scope>request</managed-bean-scope>
-</managed-bean>
-
+</managed-bean> 
+  
+               
 </faces-config>

@@ -20,7 +20,7 @@
             	Password :
             	<h:inputText id="email" value="#{customerAuth.passWord}"/> <br><br>
             	
-         		<h:commandButton action="#{cDaoImpl.login(customerAuth)}" value="Login" /> &nbsp;
+         		<h:commandButton action="#{cDaoImpl.login(userName,passWord)}" value="Login" /> &nbsp;
                </center>
                </h:form>
                </body>

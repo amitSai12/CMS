@@ -15,7 +15,7 @@
         		<center>
                 <h2><h:outputText value="Insurance Details"/></h2>
            
-        <h:dataTable value="#{paginationDao.getInsuranceList()}" var="i" border="3">
+        <h:dataTable value="#{iDaoImpl.showInsurance()}" var="i" border="3">
               	    <h:column>
                     <f:facet name="header">
                     	<h:outputLabel value="Inurance Id" />
@@ -70,39 +70,8 @@
                     </f:facet>
                     <h:outputText value="#{i.status}"/>
                 </h:column>
-                  </h:dataTable><br><br>
-                
-                  <!--The paging buttons-->
-            <h:commandButton value="first" action="#{paginationDao.pageFirst}"
-                             disabled="#{paginationDao.firstRow == 0}" />
-                             
-                              <h:outputText value="&nbsp;" escape="false"/>
-                              
-            <h:commandButton value="prev" action="#{paginationDao.pagePrevious}"
-                             disabled="#{paginationDao.firstRow == 0}" />
-                             
-            <h:outputText value="&nbsp;" escape="false"/>
-            
-            <h:commandButton value="next" action="#{paginationDao.pageNext}"
-                             disabled="#{paginationDao.firstRow + paginationDao.rowsPerPage >= paginationDao.totalRows}" />
-                             
-            <h:outputText value="&nbsp;" escape="false"/>
-            
-            <h:commandButton value="last" action="#{paginationDao.pageLast}"
-                             disabled="#{paginationDao.firstRow + paginationDao.rowsPerPage >= paginationDao.totalRows}" />
-                             
-            <h:outputText value="&nbsp;" escape="false"/>  <br><br>
-            
-            <h:outputText value="Page #{paginationDao.currentPage} / #{paginationDao.totalPages}" />
-            <br /> <br />
-            <!-- Set rows per page -->
-            <h:outputLabel for="rowsPerPage" value="Rows: "/>
-            <h:inputText id="rowsPerPage" value="#{paginationDao.rowsPerPage}" size="3" maxlength="3" />
-            <h:outputText value="&nbsp;" escape="false"/>
-            <h:commandButton value="Set" action="#{paginationDao.pageFirst}" />
-            <h:message for="rowsPerPage" errorStyle="color: red;" /> <br><br>
                   
-      
+        </h:dataTable><br><br>
         <h:commandButton action="CustomerShow" value="Customer Details" />  &nbsp;&nbsp;
         <h:commandButton action="CustomerAdd" value="Add Customer " />
          </center>

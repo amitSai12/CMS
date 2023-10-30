@@ -99,43 +99,28 @@ public class CustomerDAOImpl implements CustomerDAO {
 		return cr.list();
 	}
 	
-	public String login(CustomerAuthorization customerAuth) {
-	    SessionFactory sf = SessionHelper.getConnection();
-	    Session session = sf.openSession();
-	    
-	    try {
-	        Criteria criteria = session.createCriteria(CustomerAuthorization.class);
-	        criteria.add(Restrictions.eq("userName", customerAuth.getUserName()));
-	        criteria.add(Restrictions.eq("passWord", EncryptPassword.getCode(customerAuth.getPassWord())));
-	        criteria.setProjection(Projections.rowCount());
-	        
-	        long count = (long) criteria.uniqueResult();
-	        
-	        if (count == 1) {
-	           
-	            return "Dashboard.jsp?faces-redirect=true";
+	public String login(String userName, String password) {
+		
+	    Session session = SessionHelper.getConnection().openSession();
+	    Criteria criteria = session.createCriteria(CustomerAuthorization.class);
+	    System.out.println("Entered User  " +userName);
+	    System.out.println("Entered Password " +password);
+	    criteria.add(Restrictions.eq("userName", userName ));
+	    CustomerAuthorization customerAuth = (CustomerAuthorization) criteria.uniqueResult();
+	    System.out.println("Selected User is  " +customerAuth);
+	    if (customerAuth != null) {
+	        String storedPassword = customerAuth.getPassWord();
+	        String encryptedPassword = EncryptPassword.getCode(storedPassword);
+
+	        if (storedPassword.trim().equals(encryptedPassword)) {
+	            return "DashBoard.jsp?faces-redirect=true";
 	        } else {
 	            
-	            return "Login.jsp"; 
+	            return "CustomerShow.jsp?faces-redirect=true";
 	        }
-	    } finally {
-	        session.close();
 	    }
+        return "";
 	}
-	    
-	
-	public List<Customer> showCustomerDao(int firstRow, int rowCount) {
-		SessionFactory sf = SessionHelper.getConnection();
-		Session session = sf.openSession();
-		Criteria cr = session.createCriteria(InsuranceDetails.class);
-		cr.setFirstResult(firstRow);
-		cr.setMaxResults(rowCount);
-		System.out.println(firstRow);
-		System.out.println(rowCount);
-		System.out.println(cr.list());
-		return cr.list();
-	}
-	
 	public List<Customer> getListOfCustomer(int firstRow, int rowCount) {
 		SessionFactory sf = SessionHelper.getConnection();
 		Session session = sf.openSession();
@@ -161,6 +146,4 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 		return 0;
 	}
-	
-	
 }

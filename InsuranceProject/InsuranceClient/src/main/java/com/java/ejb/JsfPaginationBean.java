@@ -8,14 +8,13 @@ import javax.faces.event.ActionEvent;
 public class JsfPaginationBean {
 
 	private static final long serialVersionUID = 1L;
-	private List<InsuranceDetails> cdList;
-	private InsuranceDAOImpl queryHelper;
-	
+	private List<Customer> cdList;
+	private CustomerDAOImpl queryHelper;
 	/**
 	 * pagination stuff
 	 */
 	private int totalRows;
-	static private int firstRow;
+	private int firstRow;
 	private int rowsPerPage;
 	private int totalPages;
 	private int pageRange;
@@ -25,7 +24,7 @@ public class JsfPaginationBean {
 	 * Creates a new instance of JsfPaginationBean
 	 */
 	public JsfPaginationBean() {
-		queryHelper = new InsuranceDAOImpl();
+		queryHelper = new CustomerDAOImpl();
 		/**
 		 * the below function should not be called in real world application
 		 */
@@ -33,13 +32,13 @@ public class JsfPaginationBean {
 		rowsPerPage = 5; // Default rows per page (max amount of rows to be displayed at once).
 		pageRange = 10; // Default page range (max amount of page links to be displayed at once).
 	}
-	public List<InsuranceDetails> getInsuranceList() {
+	public List<Customer> getCustomerList() {
 		if (cdList == null) {
-			loadInsurance();
+			loadEmploy();
 		}
 		return cdList;
 	}
-	public void setCdList(List<InsuranceDetails> cdList) {
+	public void setCdList(List<Customer> cdList) {
 		this.cdList = cdList;
 	}
 	public int getTotalRows() {
@@ -85,10 +84,10 @@ public class JsfPaginationBean {
 		this.currentPage = currentPage;
 	}
 	
-	private void loadInsurance() {
+	private void loadEmploy() {
 		System.out.println("First Row  " +firstRow);
 		System.out.println("Count  " +rowsPerPage);
-		cdList = queryHelper.getListOfInsurance(firstRow, rowsPerPage);
+		cdList = queryHelper.getListOfCustomer(firstRow, rowsPerPage);
 		System.out.println("Employ Count is  " +cdList);
 		totalRows = queryHelper.countRows();
 		System.out.println("Total Rows  " +totalRows);
@@ -123,8 +122,6 @@ public class JsfPaginationBean {
 	}
 	private void page(int firstRow) {
 		this.firstRow = firstRow;
-		loadInsurance();
+		loadEmploy();
 	}
-	
-	
 }
