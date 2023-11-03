@@ -1,0 +1,781 @@
+2023-10-31 15:34:48,734 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-31 15:49:32,969 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [610])
+2023-10-31 15:49:32,992 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-10-31 15:49:32,992 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-10-31 15:49:32,993 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-10-31 15:49:32,993 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-10-31 15:49:32,993 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-10-31 15:49:32,993 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-10-31 15:49:32,993 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-10-31 15:49:32,993 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-10-31 15:49:32,994 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-10-31 15:49:32,994 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-10-31 15:49:32,994 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-10-31 15:49:32,994 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-10-31 15:49:32,994 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-10-31 15:49:32,995 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-10-31 15:49:32,995 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-10-31 15:49:32,995 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-10-31 15:49:32,995 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-10-31 15:49:32,995 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-10-31 15:49:32,995 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-10-31 15:49:32,995 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-10-31 15:49:32,996 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-10-31 15:49:32,997 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-10-31 15:49:32,998 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-10-31 15:49:32,999 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-10-31 15:49:33,001 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\com.google.guava_31.1.0.jre.jar
+2023-10-31 15:49:33,001 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [924])
+2023-10-31 15:49:33,002 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-10-31 15:49:33,002 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-10-31 15:49:33,003 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-10-31 15:49:33,003 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-10-31 15:49:33,004 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-10-31 15:49:33,004 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-10-31 15:49:33,005 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-10-31 15:49:33,005 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-10-31 15:49:33,005 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\amitsaib\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-10-31 15:49:33,010 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\amitsaib\AppData\Local\Temp\m2e-archetypeGenerator9888078968102287166":
+2023-10-31 15:49:33,013 [Worker-26: Launching mavenrun-2f3f3412-b64e-4632-9352-0f5cbc6c2b2f] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.glassfish.jersey.archetypes -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeVersion=3.1.3 -DgroupId=Infinite -DartifactId=HealthcareManagement -Dversion=0.0.1-SNAPSHOT -Dpackage=com.java.manager -DoutputDirectory=D:\MajorProject\SearchMember -Dstyle.color=always -U archetype:generate
+2023-10-31 15:50:21,751 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\MajorProject\SearchMember\HealthcareManagement\pom.xml
+2023-10-31 15:50:26,685 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Infinite:HealthcareManagement:0.0.1-SNAPSHOT @ D:\MajorProject\SearchMember\HealthcareManagement\pom.xml.
+2023-10-31 15:50:29,159 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HealthcareManagement/src/main/java
+2023-10-31 15:50:29,159 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HealthcareManagement/src/main/resources
+2023-10-31 15:50:29,175 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HealthcareManagement/src/test/java
+2023-10-31 15:50:31,115 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 15:50:31,120 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-31 15:50:31,123 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 15:50:31,123 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-10-31 15:50:32,389 [Worker-20: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2023-10-31 15:50:32,524 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-10-31 15:50:32,787 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Infinite:HealthcareManagement:0.0.1-SNAPSHOT @ D:\MajorProject\SearchMember\HealthcareManagement\pom.xml.
+2023-10-31 15:50:33,272 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HealthcareManagement/src/main/java
+2023-10-31 15:50:33,273 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HealthcareManagement/src/main/resources
+2023-10-31 15:50:33,273 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HealthcareManagement/src/test/java
+2023-10-31 15:50:34,081 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 15:50:34,083 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-31 15:50:34,087 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 15:50:34,087 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-10-31 15:50:34,089 [Worker-29: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HealthcareManagement
+2023-10-31 15:50:34,090 [Worker-29: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HealthcareManagement
+2023-10-31 15:50:34,334 [Worker-29: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for HealthcareManagement
+2023-10-31 15:50:34,345 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 1.00 sec 
+2023-10-31 15:50:34,581 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 15:50:34,581 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-31 15:50:34,584 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 15:50:34,584 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-10-31 15:50:34,584 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HealthcareManagement
+2023-10-31 15:50:34,584 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HealthcareManagement
+2023-11-01 10:06:10,362 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-01 10:22:27,414 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 10:22:27,428 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 10:22:27,440 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 10:22:27,441 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 10:26:02,065 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 10:26:02,089 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 10:26:02,094 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 10:26:02,094 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:05:28,924 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:05:28,924 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:05:28,927 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:05:28,927 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:06:18,934 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:06:18,935 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:06:18,938 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:06:18,939 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:07:10,389 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:07:10,391 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:07:10,395 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:07:10,395 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:09:07,410 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:09:07,411 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:09:07,413 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:09:07,414 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:09:43,059 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:09:43,064 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:09:43,067 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:09:43,068 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:09:55,863 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:09:55,864 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:09:55,867 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:09:55,867 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:10:15,992 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:10:15,992 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:10:15,996 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:10:15,997 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:12:55,688 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:12:55,689 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:12:55,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:12:55,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:13:21,848 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:13:21,849 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:13:21,852 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:13:21,852 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:13:33,571 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:13:33,572 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:13:33,573 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:13:33,574 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:13:39,787 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:13:39,788 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:13:39,791 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:13:39,792 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:15:30,972 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Infinite:HealthcareManagement:0.0.1-SNAPSHOT @ D:\MajorProject\SearchMember\HealthcareManagement\pom.xml.
+2023-11-01 15:15:42,190 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:15:42,191 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:15:42,196 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:15:42,196 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:15:42,196 [Worker-43: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HealthcareManagement
+2023-11-01 15:15:42,199 [Worker-43: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HealthcareManagement
+2023-11-01 15:16:00,994 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:16:00,995 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:16:00,997 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:16:00,998 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:16:08,649 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:16:08,651 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:16:08,654 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:16:08,654 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:19:03,405 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:03,405 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:19:03,407 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:03,407 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:19:13,052 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:13,053 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:19:13,056 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:13,057 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:19:22,881 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:22,882 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:19:22,887 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:22,887 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:19:33,277 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:33,277 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:19:33,280 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:33,281 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:19:53,786 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:53,786 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:19:53,790 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:19:53,790 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:20:52,749 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:20:52,749 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:20:52,751 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:20:52,752 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:21:16,645 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:21:16,646 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:21:16,648 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:21:16,648 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:21:20,140 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:21:20,140 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:21:20,143 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:21:20,143 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:21:54,019 [main] INFO  org.hibernate.cfg.Environment - Hibernate 3.5.6-Final
+2023-11-01 15:21:54,058 [main] INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2023-11-01 15:21:54,062 [main] INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2023-11-01 15:21:54,069 [main] INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2023-11-01 15:23:33,063 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:23:33,066 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 15:23:33,082 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:23:33,083 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:23:43,917 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:23:43,917 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:23:43,921 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:23:43,921 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:24:38,785 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:24:38,785 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 15:24:38,789 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:24:38,789 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:24:55,369 [main] INFO  org.hibernate.cfg.Environment - Hibernate 3.6.10.Final
+2023-11-01 15:24:55,369 [main] INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2023-11-01 15:24:55,374 [main] INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2023-11-01 15:24:55,376 [main] INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2023-11-01 15:24:57,606 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:24:57,606 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 15:24:57,609 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:24:57,610 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:25:38,312 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:25:38,313 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 15:25:38,317 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:25:38,318 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:26:04,169 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:26:04,170 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 15:26:04,177 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:26:04,177 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:26:07,316 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:26:07,316 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:26:07,319 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:26:07,319 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:27:02,411 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:27:02,412 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:27:02,416 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:27:02,417 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:28:06,545 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:28:06,546 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:28:06,549 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:28:06,550 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:29:14,431 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:29:14,431 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:29:14,433 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:29:14,433 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:29:31,969 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:29:31,969 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:29:31,971 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:29:31,971 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:30:10,564 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:30:10,564 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:30:10,566 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:30:10,566 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:30:17,466 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:30:17,467 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:30:17,469 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:30:17,470 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:31:34,197 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:31:34,198 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:31:34,200 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:31:34,200 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:32:36,620 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:32:36,620 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:32:36,622 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:32:36,623 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:33:21,651 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:33:21,652 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-01 15:33:21,654 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:33:21,655 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:38:35,609 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:38:35,610 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 15:38:35,618 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:38:35,618 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 15:43:39,929 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:43:39,929 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 15:43:39,932 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 15:43:39,932 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:32:36,730 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:32:36,731 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:32:36,732 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:32:36,733 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:34:15,897 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:34:15,898 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:34:15,901 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:34:15,901 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:34:31,931 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:34:31,932 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:34:31,934 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:34:31,934 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:42:22,153 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:42:22,153 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:42:22,155 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:42:22,155 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:42:39,534 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:42:39,535 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:42:39,538 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:42:39,538 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:42:53,264 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:42:53,265 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:42:53,267 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:42:53,268 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:43:04,556 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:43:04,556 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:43:04,558 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:43:04,558 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:43:33,383 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:43:33,383 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:43:33,385 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:43:33,385 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:43:45,309 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:43:45,310 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:43:45,311 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:43:45,311 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:44:32,004 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:44:32,005 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:44:32,006 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:44:32,006 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-01 16:46:13,224 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:46:13,225 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-01 16:46:13,228 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-01 16:46:13,228 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:16:06,105 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:16:06,105 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:16:06,108 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:16:06,108 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:17:49,897 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:17:49,897 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:17:49,898 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:17:49,899 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:17:54,053 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:17:54,053 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:17:54,054 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:17:54,054 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:18:01,090 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:01,090 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:18:01,091 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:01,091 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:18:09,336 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:09,336 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:18:09,337 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:09,337 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:18:12,474 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:12,474 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:18:12,475 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:12,475 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:18:51,334 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:51,334 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:18:51,335 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:51,335 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:18:56,066 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:56,066 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:18:56,067 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:18:56,068 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:19:05,492 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:05,493 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:19:05,495 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:05,495 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:19:11,690 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:11,690 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:19:11,692 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:11,692 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:19:17,485 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:17,486 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:19:17,487 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:17,487 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:19:24,562 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:24,562 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:19:24,563 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:19:24,563 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:20:41,481 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:20:41,481 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:20:41,482 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:20:41,482 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:24:31,937 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:24:31,937 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:24:31,938 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:24:31,938 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:25:10,876 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:25:10,876 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:25:10,877 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:25:10,877 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:30:47,298 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:30:47,299 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:30:47,300 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:30:47,300 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:33:03,559 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:33:03,560 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:33:03,561 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:33:03,561 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:41:04,641 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:41:04,641 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 09:41:04,643 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:41:04,643 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:44:06,680 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:44:06,680 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:44:06,681 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:44:06,681 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:44:39,695 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:44:39,695 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:44:39,696 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:44:39,696 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:44:57,561 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:44:57,562 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:44:57,562 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:44:57,563 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:45:13,642 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:45:13,642 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:45:13,643 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:45:13,643 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:45:58,751 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:45:58,751 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:45:58,752 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:45:58,752 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:49:23,002 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:49:23,002 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:49:23,004 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:49:23,004 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:49:39,465 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:49:39,466 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:49:39,466 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:49:39,467 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:50:00,746 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:50:00,746 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:50:00,747 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:50:00,747 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 09:50:23,195 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:50:23,195 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 09:50:23,196 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 09:50:23,197 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:05:50,996 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:05:50,997 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 11:05:51,007 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:05:51,007 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:05:53,119 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:05:53,119 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 11:05:53,121 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:05:53,121 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:06:11,468 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:06:11,468 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 11:06:11,469 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:06:11,469 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:06:24,088 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:06:24,088 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 11:06:24,089 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:06:24,089 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:07:56,047 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:07:56,048 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:07:56,049 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:07:56,049 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:07:59,303 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:07:59,304 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 11:07:59,305 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:07:59,305 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:08:53,270 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:08:53,270 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:08:53,272 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:08:53,273 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:09:09,980 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:09:09,981 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:09:09,982 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:09:09,982 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:09:55,388 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:09:55,403 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:09:55,405 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:09:55,405 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:12:32,653 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:12:32,653 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:12:32,654 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:12:32,654 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:12:53,467 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:12:53,467 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:12:53,468 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:12:53,468 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:13:45,413 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:13:45,413 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:13:45,414 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:13:45,414 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:15:03,264 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:15:03,264 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:15:03,265 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:15:03,265 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:15:33,871 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:15:33,872 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 11:15:33,873 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:15:33,873 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:15:49,650 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-11-02 11:15:54,260 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Infinite:HealthcareManagement:0.0.1-SNAPSHOT @ D:\MajorProject\SearchMember\HealthcareManagement\pom.xml.
+2023-11-02 11:16:04,050 [Worker-104: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HealthcareManagement/src/main/java
+2023-11-02 11:16:04,050 [Worker-104: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HealthcareManagement/src/main/resources
+2023-11-02 11:16:04,050 [Worker-104: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HealthcareManagement/src/test/java
+2023-11-02 11:16:04,788 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:16:04,789 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 11:16:04,795 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:16:04,795 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:16:04,795 [Worker-104: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HealthcareManagement
+2023-11-02 11:16:04,795 [Worker-104: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HealthcareManagement
+2023-11-02 11:16:06,303 [Worker-104: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for HealthcareManagement
+2023-11-02 11:16:06,370 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 13.00 sec, update config takes 3.00 sec 
+2023-11-02 11:16:11,180 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:16:11,181 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 11:16:11,184 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 11:16:11,184 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 11:16:11,185 [Worker-106: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HealthcareManagement
+2023-11-02 11:16:11,185 [Worker-106: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HealthcareManagement
+2023-11-02 14:43:07,942 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:43:07,943 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:43:07,946 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:43:07,946 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 14:43:39,511 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:43:39,511 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:43:39,514 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:43:39,514 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 14:44:24,621 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:44:24,621 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:44:24,623 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:44:24,624 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 14:44:36,129 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:44:36,130 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:44:36,131 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:44:36,131 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 14:45:50,802 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:45:50,802 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:45:50,804 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:45:50,804 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 14:50:15,546 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:50:15,547 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:50:15,549 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:50:15,549 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 14:50:17,641 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:50:17,642 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:50:17,643 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:50:17,643 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 14:53:19,473 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:53:19,474 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 14:53:19,477 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 14:53:19,477 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:05:06,150 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:05:06,151 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:05:06,175 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:05:06,175 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:08:23,085 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:08:23,085 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:08:23,086 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:08:23,086 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:10:00,290 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:10:00,291 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:10:00,293 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:10:00,293 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:10:15,498 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:10:15,498 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:10:15,499 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:10:15,499 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:42:24,395 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:42:24,396 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 15:42:24,398 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:42:24,398 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:44:41,029 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:44:41,029 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:44:41,032 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:44:41,032 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:46:51,202 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:46:51,202 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:46:51,205 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:46:51,205 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:47:28,916 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:47:28,916 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:47:28,919 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:47:28,919 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:48:37,484 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:48:37,484 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:48:37,486 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:48:37,487 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 15:49:00,700 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:49:00,701 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 15:49:00,702 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 15:49:00,702 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 17:23:05,304 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:23:05,304 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 17:23:05,306 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:23:05,306 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 17:23:17,857 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:23:17,857 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 17:23:17,859 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:23:17,859 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 17:25:02,827 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:25:02,827 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 17:25:02,829 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:25:02,830 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 17:33:03,769 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:33:03,770 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 17:33:03,773 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 17:33:03,773 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 20:38:44,840 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 20:38:44,841 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-02 20:38:44,842 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 20:38:44,842 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-02 20:40:08,415 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 20:40:08,415 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-02 20:40:08,416 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-02 20:40:08,416 [Worker-181: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:47:32,472 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:47:32,473 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 08:47:32,473 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:47:32,473 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:48:04,615 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:48:04,615 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:48:04,616 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:48:04,616 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:48:26,824 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:48:26,824 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:48:26,825 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:48:26,825 [Worker-195: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:48:54,975 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:48:54,975 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:48:54,977 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:48:54,977 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:49:16,806 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:49:16,806 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:49:16,808 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:49:16,808 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:52:27,397 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:52:27,397 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:52:27,399 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:52:27,399 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:52:47,436 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:52:47,436 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:52:47,437 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:52:47,437 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:52:55,625 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:52:55,626 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:52:55,627 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:52:55,627 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:53:28,936 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:53:28,936 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:53:28,937 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:53:28,938 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:53:32,117 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:53:32,118 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:53:32,120 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:53:32,120 [Worker-194: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:55:33,474 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:55:33,474 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:55:33,476 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:55:33,476 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:55:42,858 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:55:42,858 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 08:55:42,860 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:55:42,860 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:56:03,537 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:56:03,537 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 08:56:03,538 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:56:03,538 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 08:58:25,024 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:58:25,024 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 08:58:25,025 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 08:58:25,025 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:03:52,502 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:03:52,503 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:03:52,504 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:03:52,504 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:04:01,088 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:04:01,089 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:04:01,091 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:04:01,092 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:04:12,141 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:04:12,141 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:04:12,144 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:04:12,144 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:04:29,755 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:04:29,756 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:04:29,759 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:04:29,759 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:05:01,877 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:05:01,879 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:05:01,881 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:05:01,881 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:06:40,185 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:06:40,186 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:06:40,188 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:06:40,188 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:25:19,745 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:25:19,745 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:25:19,746 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:25:19,746 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:39:29,072 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:39:29,073 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:39:29,074 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:39:29,074 [Worker-211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:42:02,176 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:42:02,176 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:42:02,177 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:42:02,178 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:43:44,912 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:43:44,913 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:43:44,914 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:43:44,914 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:45:26,605 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:45:26,606 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 09:45:26,608 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:45:26,608 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:47:27,581 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:47:27,582 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:47:27,585 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:47:27,585 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 09:49:03,171 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:49:03,171 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 09:49:03,175 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 09:49:03,175 [Worker-218: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:18:45,840 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:18:45,841 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:18:45,843 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:18:45,843 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:19:36,447 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:19:36,448 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:19:36,450 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:19:36,451 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:31:58,030 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:31:58,031 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:31:58,033 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:31:58,033 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:32:06,541 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:32:06,541 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:32:06,543 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:32:06,543 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:32:48,480 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:32:48,481 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:32:48,483 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:32:48,483 [Worker-223: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:34:58,003 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:34:58,003 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:34:58,004 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:34:58,004 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:36:33,547 [Worker-231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:36:33,548 [Worker-231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:36:33,550 [Worker-231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:36:33,550 [Worker-231: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:36:43,130 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:36:43,130 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:36:43,132 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:36:43,132 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:38:52,225 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:38:52,226 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:38:52,228 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:38:52,229 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:39:17,421 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:39:17,421 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:39:17,423 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:39:17,423 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:47:26,029 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:47:26,029 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:47:26,030 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:47:26,030 [Worker-238: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:47:35,628 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:47:35,629 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:47:35,632 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:47:35,633 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:47:43,402 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:47:43,402 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:47:43,404 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:47:43,404 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:49:22,046 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:49:22,046 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:49:22,047 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:49:22,047 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:49:37,768 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:49:37,768 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 10:49:37,770 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:49:37,771 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:54:17,624 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:54:17,624 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:54:17,627 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:54:17,627 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 10:54:50,960 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:54:50,961 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 10:54:50,964 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 10:54:50,964 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 11:25:07,841 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:25:07,841 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 11:25:07,842 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:25:07,842 [Worker-250: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 11:26:27,011 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:26:27,011 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 11:26:27,012 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:26:27,012 [Worker-224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 11:27:22,325 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:27:22,325 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-03 11:27:22,326 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:27:22,326 [Worker-244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 11:50:13,860 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:50:13,860 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 11:50:13,861 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:50:13,861 [Worker-256: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources
+2023-11-03 11:58:46,196 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:58:46,196 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-03 11:58:46,198 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-03 11:58:46,198 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MajorProject\SearchMember\HealthcareManagement\src\test\resources

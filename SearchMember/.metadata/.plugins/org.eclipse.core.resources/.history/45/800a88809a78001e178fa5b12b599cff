@@ -1,0 +1,5 @@
+package com.java.manager;
+
+public class PatientDAO {
+
+}

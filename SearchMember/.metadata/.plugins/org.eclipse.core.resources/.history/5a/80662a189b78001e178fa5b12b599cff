@@ -1,0 +1,8 @@
+package com.java.manager;
+
+public class SessionHelper {
+
+	public static SessionFactory getConnection() {
+		
+	}
+}
