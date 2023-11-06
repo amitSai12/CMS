@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2023-11-01T00:42:20Z</updated>
+  <updated>2023-11-01T18:11:19Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
+    <title>JBoss Blogs: Redis Integration with Quarkus made simple</title>
+    <updated>2023-11-01T12:19:39Z</updated>
+    <id>https://www.mastertheboss.com/soa-cloud/quarkus/accessing-redis-from-a-quarkus-application/</id>
+    <link href="https://www.mastertheboss.com/soa-cloud/quarkus/accessing-redis-from-a-quarkus-application/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: Developer Certificate of Origin</title>
     <updated>2023-10-31T00:00:00Z</updated>
     <id>https://www.keycloak.org/2023/10/dco</id>
@@ -74,14 +81,14 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus 3.2.7.Final released - Maintenance release</title>
+    <title>Quarkus: Quarkus 3.2.7.Final released - Maintenance release</title>
     <updated>2023-10-19T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-2-7-final-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-2-7-final-released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: Quarkus 3.2.7.Final released - Maintenance release</title>
+    <title>JBoss Blogs: Quarkus 3.2.7.Final released - Maintenance release</title>
     <updated>2023-10-19T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-2-7-final-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-2-7-final-released/" rel="alternate"/>
@@ -102,17 +109,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus 2.16.12.Final released - Maintenance release</title>
-    <updated>2023-10-17T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-2-16-12-final-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-2-16-12-final-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: Announcement: Discontinuation of Keycloak's Map Store</title>
     <updated>2023-10-17T00:00:00Z</updated>
     <id>https://www.keycloak.org/2023/10/map-store-removal</id>
     <link href="https://www.keycloak.org/2023/10/map-store-removal" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 2.16.12.Final released - Maintenance release</title>
+    <updated>2023-10-17T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-2-16-12-final-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-2-16-12-final-released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -179,10 +186,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus Newsletter #37 - October</title>
+    <title>JBoss Blogs: Meet Keycloak at KubeCon Chicago in Nov 2023</title>
     <updated>2023-10-10T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-newsletter-37/</id>
-    <link href="https://quarkus.io/blog/quarkus-newsletter-37/" rel="alternate"/>
+    <id>https://www.keycloak.org/2023/10/keycloak-kubeconf-chicago</id>
+    <link href="https://www.keycloak.org/2023/10/keycloak-kubeconf-chicago" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -190,13 +197,6 @@
     <updated>2023-10-10T00:00:00Z</updated>
     <id>https://quarkus.io/blog/intellij-quarkus-recap/</id>
     <link href="https://quarkus.io/blog/intellij-quarkus-recap/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Meet Keycloak at KubeCon Chicago in Nov 2023</title>
-    <updated>2023-10-10T00:00:00Z</updated>
-    <id>https://www.keycloak.org/2023/10/keycloak-kubeconf-chicago</id>
-    <link href="https://www.keycloak.org/2023/10/keycloak-kubeconf-chicago" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
