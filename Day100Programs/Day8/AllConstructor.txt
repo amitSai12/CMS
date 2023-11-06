@@ -1,0 +1,76 @@
+public class Student {
+    private int studentId;
+    private String studentName;
+    private int age;
+
+    // Default constructor
+    public Student() {
+        this.studentId = 0;
+        this.studentName = "Unknown";
+        this.age = 0;
+    }
+
+    // Parameterized constructor with studentId and studentName
+    public Student(int studentId, String studentName) {
+        this.studentId = studentId;
+        this.studentName = studentName;
+        this.age = 0;
+    }
+
+    // Parameterized constructor with all fields
+    public Student(int studentId, String studentName, int age) {
+        this.studentId = studentId;
+        this.studentName = studentName;
+        this.age = age;
+    }
+
+    // Getter and Setter methods
+
+    public int getStudentId() {
+        return studentId;
+    }
+
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Display student information
+    public void displayStudentInfo() {
+        System.out.println("Student ID: " + studentId);
+        System.out.println("Student Name: " + studentName);
+        System.out.println("Age: " + age);
+    }
+
+    public static void main(String[] args) {
+        // Create objects using different constructors
+        Student student1 = new Student();
+        Student student2 = new Student(101, "John");
+        Student student3 = new Student(102, "Alice", 20);
+
+        // Display student information
+        System.out.println("Student 1 Information:");
+        student1.displayStudentInfo();
+
+        System.out.println("\nStudent 2 Information:");
+        student2.displayStudentInfo();
+
+        System.out.println("\nStudent 3 Information:");
+        student3.displayStudentInfo();
+    }
+}

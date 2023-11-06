@@ -1,0 +1,58 @@
+import java.util.Scanner; // Import the Scanner class to get user input.
+
+public class BankAccount {
+    private String accountNumber;
+    private double balance;
+
+    public BankAccount(String accountNumber, double initialBalance) {
+        this.accountNumber = accountNumber;
+        this.balance = ibalance;
+    }
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+            System.out.println("Deposited $" + amount);
+        } else {
+            System.out.println("Add at least $1");
+        }
+    }
+
+    public void withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance -= amount;
+            System.out.println("Withdrawn $" + amount);
+        } else {
+            System.out.println("Invalid withdrawal amount or insufficient balance.");
+        }
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); 
+ 
+        System.out.print("Enter your account number: ");
+        String accountNumber = input.next();
+
+        System.out.print("Enter initial balance: ");
+        double ibalance = input.nextDouble(); 
+
+        BankAccount account = new BankAccount(accountNumber, initialBalance);
+	 // Create a BankAccount object with user-provided values.
+
+        System.out.print("Enter the deposit amount: ");
+        double depositAmount = input.nextDouble(); // Read and store the user's deposit amount input.
+        account.deposit(depositAmount); // Call the deposit method with the deposit amount.
+
+        System.out.print("Enter the withdrawal amount: ");
+        double withdrawalAmount = input.nextDouble(); // Read and store the user's withdrawal amount input.
+        account.withdraw(withdrawalAmount); // Call the withdraw method with the withdrawal amount.
+
+        System.out.println("Account Balance: $" + account.getBalance()); // Display the updated account balance.
+
+        input.close(); // Close the Scanner to release resources.
+    }
+}

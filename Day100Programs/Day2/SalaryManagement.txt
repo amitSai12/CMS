@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class SalaryManagementSystem {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        // Input employee details
+        System.out.print("Enter employee name: ");
+        String name = input.nextLine();
+        System.out.print("Enter basic salary: ");
+        double basicSalary = input.nextDouble();
+        
+        // Calculate gross salary
+        double hra = 0.2 * basicSalary;
+        double da = 0.1 * basicSalary;
+        double grossSalary = basicSalary + hra + da;
+        
+        // Display the result
+        System.out.println("Employee: " + name);
+        System.out.println("Gross Salary: " + grossSalary);
+        
+    }
+}

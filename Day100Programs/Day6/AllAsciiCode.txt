@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class AllAsciiCode {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter an alphabet (A-Z or a-z) or 'exit' to quit:");
+        while (true) {
+            String input = scanner.next();
+
+            if (input.equalsIgnoreCase("exit")) {
+                break; // Exit the program if 'exit' is entered
+            } else if (input.length() == 1 && Character.isLetter(input.charAt(0))) {
+                char alphabet = input.charAt(0);
+                int asciiCode = (int) alphabet;
+                System.out.println("ASCII code for '" + alphabet + "' is " + asciiCode);
+            } else {
+                System.out.println("Invalid input!!", Enter a single alphabet or 'exit'.");
+            }
+        }
+
+    }
+}

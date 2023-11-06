@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class CurrencyConverter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Get the amount in USD from the user
+        System.out.print("Enter the amount in USD: $");
+        double usdAmount = scanner.nextDouble();
+        
+        // Provide the current exchange rate (you can update this as needed)
+        double exchangeRate = 74.0;  // 1 USD to INR
+        
+        // Convert USD to INR
+        double inrAmount = usdAmount * exchangeRate;
+        
+        // Display the converted amount
+        System.out.println("Equivalent amount in INR: Rs." + inrAmount);
+        
+        scanner.close();
+    }
+}

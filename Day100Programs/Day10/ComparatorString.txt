@@ -1,0 +1,9 @@
+import java.util.*;
+
+public class ComparatorString{
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David", "Eve");
+        names.sort(Comparator.reverseOrder());
+        System.out.println(names);
+    }
+}

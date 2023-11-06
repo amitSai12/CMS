@@ -1,0 +1,85 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Dictionary {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Map<String, String> dictionary = new HashMap<>();
+
+        while (true) {
+            System.out.println("Dictionary Menu:");
+            System.out.println("1. Add Word");
+            System.out.println("2. Lookup Word");
+            System.out.println("3. Update Word");
+            System.out.println("4. Delete Word");
+            System.out.println("5. List All Words");
+            System.out.println("6. Exit");
+            System.out.print("Select an option: ");
+
+            int choice = scanner.nextInt();
+            scanner.nextLine(); // newline character
+
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter word to add: ");
+                    String word = scanner.nextLine();
+                    System.out.print("Enter its meaning: ");
+                    String meaning = scanner.nextLine();
+                    dictionary.put(word, meaning);
+                    System.out.println("Word added to the dictionary.");
+                    break;
+
+                case 2:
+                    System.out.print("Enter word to lookup: ");
+                    word = scanner.nextLine();
+                    String wordMeaning = dictionary.get(word);
+                    if (wordMeaning != null) {
+                        System.out.println("Meaning: " + wordMeaning);
+                    } else {
+                        System.out.println("Word not found in the dictionary.");
+                    }
+                    break;
+
+                case 3:
+                    System.out.print("Enter word to update: ");
+                    word = scanner.nextLine();
+                    if (dictionary.containsKey(word)) {
+                        System.out.print("Enter the new meaning: ");
+                        meaning = scanner.nextLine();
+                        dictionary.put(word, meaning);
+                        System.out.println("Word meaning updated.");
+                    } else {
+                        System.out.println("Word not found in the dictionary.");
+                    }
+                    break;
+
+                case 4:
+                    System.out.print("Enter word to delete: ");
+                    word = scanner.nextLine();
+                    if (dictionary.containsKey(word)) {
+                        dictionary.remove(word);
+                        System.out.println("Word deleted from the dictionary.");
+                    } else {
+                        System.out.println("Word not found in the dictionary.");
+                    }
+                    break;
+
+                case 5:
+                    System.out.println("Dictionary Contents:");
+                    for (Map.Entry<String, String> entry : dictionary.entrySet()) {
+                        System.out.println(entry.getKey() + ": " + entry.getValue());
+                    }
+                    break;
+
+                case 6:
+                    System.out.println("Exiting the dictionary app.");
+                    scanner.close();
+                    System.exit(0);
+
+                default:
+                    System.out.println("Invalid choice. Please select a valid option.");
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+class Person {
+    private String name;
+    private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public String toString() {
+        return name + " (" + age + " years old)";
+    }
+}
+
+public class ComparatorInterfaceExample {
+    public static void main(String[] args) {
+        List<Person> people = new ArrayList<>();
+        people.add(new Person("Alice", 25));
+        people.add(new Person("Bob", 30));
+        people.add(new Person("Charlie", 22));
+        people.add(new Person("David", 25));
+        people.add(new Person("Eve", 22));
+
+        // Sort by age using a custom Comparator
+        Collections.sort(people, new AgeComparator());
+        System.out.println("Sorted by Age:");
+        for (Person person : people) {
+            System.out.println(person);
+        }
+
+        // Sort by name using a custom Comparator
+        Collections.sort(people, new NameComparator());
+        System.out.println("\nSorted by Name:");
+        for (Person person : people) {
+            System.out.println(person);
+        }
+    }
+
+    static class AgeComparator implements Comparator<Person> {
+        @Override
+        public int compare(Person person1, Person person2) {
+            return Integer.compare(person1.getAge(), person2.getAge());
+        }
+    }
+
+    static class NameComparator implements Comparator<Person> {
+        @Override
+        public int compare(Person person1, Person person2) {
+            return person1.getName().compareTo(person2.getName());
+        }
+    }
+}

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class WordGame {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the first word: ");
+        String firstWord = scanner.nextLine();
+
+        char lastLetter = firstWord.charAt(firstWord.length() - 1);
+        System.out.println("The last letter of the first word is: " + lastLetter);
+
+        while (true) {
+            System.out.print("Enter a word that starts with the last letter: ");
+            String nextWord = scanner.nextLine();
+
+            if (nextWord.isEmpty()) {
+                System.out.println("You win!");
+                break;
+            }
+
+            if (nextWord.charAt(0) == lastLetter) {
+                lastLetter = nextWord.charAt(nextWord.length() - 1);
+                System.out.println("The last letter of the current word is: " + lastLetter);
+            } else {
+                System.out.println("You lose! The word doesn't start with the last letter.");
+                break;
+            }
+        }
+
+        scanner.close();
+    }
+}

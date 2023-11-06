@@ -1,0 +1,25 @@
+public class Car {
+    private String make;
+    private String model;
+
+    public Car(String make, String model) {
+        this.make = make;
+        this.model = model;
+    }
+
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public static void main(String[] args) {
+        Car car = new Car("Toyota", "Camry");
+        
+        // Accessing the Car object using getter methods
+        System.out.println("Make: " + car.getMake());
+        System.out.println("Model: " + car.getModel());
+    }
+}

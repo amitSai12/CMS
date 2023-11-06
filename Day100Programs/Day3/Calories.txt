@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class FoodCalorieCalculator {
+    public static void main(String[] args) {
+        // Create a simple database of food items and their calorie values
+        Map<String, Integer> foodDatabase = new HashMap<>();
+        foodDatabase.put("apple", 52);
+        foodDatabase.put("banana", 89);
+        foodDatabase.put("chicken breast", 165);
+        foodDatabase.put("pasta", 131);
+        foodDatabase.put("pizza", 285);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to the Food Calorie Calculator");
+        System.out.print("Enter the name of a food item: ");
+        String foodItem = scanner.nextLine().toLowerCase(); // Convert input to lowercase for case-insensitive matching
+
+        if (foodDatabase.containsKey(foodItem)) {
+            int calories = foodDatabase.get(foodItem);
+            System.out.println(foodItem + " contains " + calories + " calories.");
+        } else {
+            System.out.println("Food item not found in the database.");
+        }
+
+        scanner.close();
+    }
+}

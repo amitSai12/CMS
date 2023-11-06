@@ -1,0 +1,9 @@
+import java.util.*;
+
+public class ComparatorDouble{
+    public static void main(String[] args) {
+        double[] values = {3.5, 1.2, 4.8, 2.1, 5.0};
+        Arrays.sort(values);
+        System.out.println(Arrays.toString(values));
+    }
+}

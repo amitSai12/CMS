@@ -1,0 +1,28 @@
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+import java.util.Date;
+
+public class GreetingTime {
+    public static void main(String[] args) {
+        // Get the current time
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Your Name please : ");
+        String name = sc.next();
+        Date currentTime = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("HH");
+        String time = sdf.format(currentTime);
+        int hour = Integer.parseInt(time);
+        hour+=6;
+        
+        // Greet based on the time
+        if (hour >= 4 && hour < 12) {
+            System.out.print("Good Morning!, "+name);
+        } else if (hour >= 12 && hour < 17) {
+            System.out.print("Good Afternoon!, "+name );
+        } else if (hour >= 17 && hour < 21) {
+            System.out.print("Good Evening!, "+name);
+        } else if (hour >= 21 || hour < 4) {
+            System.out.print("Good Night!, "+name);
+        }
+    }
+}

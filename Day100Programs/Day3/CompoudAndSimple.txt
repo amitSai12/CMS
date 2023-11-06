@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class InterestCalculator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Interest Calculator");
+        System.out.print("Enter Principal Amount: ");
+        double principal = scanner.nextDouble();
+
+        System.out.print("Enter Annual Interest Rate (%): ");
+        double annualInterestRate = scanner.nextDouble();
+
+        System.out.print("Enter Time Period (in years): ");
+        double timePeriod = scanner.nextDouble();
+
+        // Calculate Simple Interest
+        double simpleInterest = (principal * annualInterestRate * timePeriod) / 100.0;
+
+        // Calculate Compound Interest
+        double compoundInterest = principal * Math.pow((1 + annualInterestRate / 100.0), timePeriod) - principal;
+
+        System.out.println("Simple Interest: " + simpleInterest);
+        System.out.println("Compound Interest: " + compoundInterest);
+
+        scanner.close();
+    }
+}
