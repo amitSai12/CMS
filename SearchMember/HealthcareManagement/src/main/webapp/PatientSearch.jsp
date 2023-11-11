@@ -1,4 +1,4 @@
-<%@page contentType="text/html"%>
+ <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
 
 <%@taglib prefix="f" uri="http://java.sun.com/jsf/core"%> 
@@ -9,25 +9,26 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        
     </head>
     <body>
         <h:form>
         		 <center>
                 <h2><h:outputText value="- Search Patients -"/></h2>
                 UhId
-                <h:inputText value="#{patient.uhId}" />&nbsp;
-                <h:commandButton value="Search" action="#{pImpl.getUhIdLists(patient.uhId)}" />
+                <h:inputText value="#{patient.uhId}" />&nbsp;      
                 &nbsp;&nbsp;
+                
                  FirstName
                 <h:inputText value="#{patient.firstName}" />&nbsp;
-                <h:commandButton value="Search" action="#{pImpl.getFirstNameLists(patient.firstName)}" />
+                
                 &nbsp;&nbsp;
                  UserName
-                <h:inputText value="#{patient.userName}" />&nbsp;
-                <h:commandButton value="Search" action="#{pImpl.getUserNameLists(patient.userName)}" /> <br><br><br><br>
+                <h:inputText value="#{patient.userName}" />&nbsp; <br><br>
+                <h:commandButton value="Search" action="#{pImpl.searchPatient(patient.uhId, patient.firstName, patient.userName)}" /> <br><br><br><br>
 
-		<h:dataTable
-			value="#{patientList}" var="p" border="1">
+		<h:dataTable value="#{pImpl.searchPatient(patient.uhId, patient.firstName, patient.userName)}" var="p" border="1">
 			 	<h:column>
                     <f:facet name="header">
                     	<h:outputLabel value="Customer Id" />
@@ -78,25 +79,25 @@
                 </h:column>
                     <h:column>
                      <f:facet name="header">
-                    	<h:outputLabel value="Status" />
+                    	<h:outputLabel value="PhoneNo" />
                     </f:facet>
                     <h:outputText value="#{p.phoneNo}"/>
                 </h:column>
                     <h:column>
                      <f:facet name="header">
-                    	<h:outputLabel value="Status" />
+                    	<h:outputLabel value="Cause" />
                     </f:facet>
                     <h:outputText value="#{p.cause}"/>
                 </h:column>
                     <h:column>
                      <f:facet name="header">
-                    	<h:outputLabel value="Status" />
+                    	<h:outputLabel value="Address" />
                     </f:facet>
                     <h:outputText value="#{p.address}"/>
                 </h:column>
                     <h:column>
                      <f:facet name="header">
-                    	<h:outputLabel value="Status" />
+                    	<h:outputLabel value="MedHistory" />
                     </f:facet>
                     <h:outputText value="#{p.medHistory}"/>
                 </h:column>
@@ -106,3 +107,4 @@
     </body>
 </html>
 </f:view>
+ 

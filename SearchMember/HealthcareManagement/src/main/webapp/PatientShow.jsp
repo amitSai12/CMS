@@ -90,10 +90,7 @@
                 </h:column>
         </h:dataTable> <br><br>
         
-         <h:commandLink value="Search By UhId" action="PatientSearch" />  <br><br>
-         <h:commandLink value="Search By Name" action="PatientSearchFirstName" />  <br><br>
-         <h:commandLink value="Search By UserName" action="PatientSearchUserName" /> <br><br>
-       
+      <h:commandButton action="PatientSearch" value="Search Patient" />
          </center>
         </h:form>
     </body>
